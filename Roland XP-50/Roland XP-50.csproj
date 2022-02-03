@@ -147,6 +147,9 @@
       <DependentUpon>TrackListForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="default" />
+    <None Include="DREAM_WS.SVD" />
+    <None Include="LENINGRD.SVD" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -156,8 +159,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="sound_00.svd" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="UserStatistics.exe" />
     <Content Include="XP-50.ico" />
   </ItemGroup>
   <ItemGroup>
